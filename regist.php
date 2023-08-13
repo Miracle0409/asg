@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>URL Shortener - Register</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form action="register_process.php" method="post">
+        <input type="text" name="username" placeholder="Username" required><br>
+        <input type="password" name="password" placeholder="Password" required><br>
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
