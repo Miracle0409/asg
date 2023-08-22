@@ -13,18 +13,3 @@ $username = $_SESSION["username"];
 
 ?>
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>URL Shortener - Dashboard</title>
-</head>
-<body>
-    <h1>Welcome, <?php echo $username; ?></h1>
-    <a href="shorten.php">Shorten URL</a><br>
-    <h2>Your Shortened URLs:</h2>
-    <ul>
-        <!-- Display list of shortened URLs -->
-        <!-- Fetch data from the 'urls' table -->
-    </ul>
-</body>
-</html>
